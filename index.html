@@ -7,46 +7,31 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./my own css library/index.css">
   <link rel="stylesheet" href="./animations/animations.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-  
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"> -->
   <title>Shortly URL shortening API Challenge</title>
-
-  
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-
-
     .form-url-shorting{
-
       max-width: 770px;
       min-width: 250px;
-
       margin: 0 auto;
       margin-top: -6rem;
     }
-
     #url-list-shorts{
       max-width: 770px;
       min-width: 250px;
-
     }
-
     .boost{
-
       background-image: url("images/bg-boost-desktop.svg");
       background-position: center center;
       /* background-repeat: no-repeat; */
       /* background-size: contain; */
       background-attachment: fixed;
     }
-
-   
-
-
   </style>
 </head>
 <body>
+
+  
 
 
   <nav class="navbar text-black mb-4 bg-white">
@@ -58,7 +43,8 @@
           </div>
 
           <div class="mobile-view">
-            <i class="bi bi-list" style="font-size: 3rem;" id="open-svg"></i>
+            
+            <img src="./images/Hamburger-Menu.svg" alt="hamburguer-menu"id="open-svg">
           </div>
 
           <div class="desktop-view">
@@ -73,7 +59,8 @@
 
         <div class="side-bar-expasive bg-secondary">
 
-          <i class="bi bi-x-square btn-closed" id="close-svg" style="color: white;"></i>
+          
+          <img src="./images/x-square.svg" alt="x-square" id="close-svg" class="bg-white" style="width: 2rem; position: fixed; top: 1.5rem; right: 1.5rem; cursor: pointer;" >
 
           <ul class="display-f" style="justify-content: center; align-items: center; flex-direction: column;">
               <li class="ml-1 mb-2">
@@ -88,7 +75,7 @@
                   <a href="#" class="btn-primary text-white pl-3 pr-3 br-lg">Resources</a>
               </li> 
           </ul>
-      </div>
+        </div>
     </div>
 
   </nav>
@@ -373,24 +360,6 @@
   </footer>
 
   
-  <script>
-        document.addEventListener("click", (e)=>{
-
-        
-
-          if(e.target.id === "open-svg"){
-
-              document.querySelector(".side-bar-expasive").classList.add("side-bar-noExpansive")
-          }
-
-          if(e.target.id === "close-svg"){
-
-              // document.querySelector(".nav.slide").classList.add("eva")
-              
-              
-              document.querySelector(".side-bar-expasive").classList.remove("side-bar-noExpansive")
-          }
-        })
-  </script>
+  <script src="./App/index.js" type="module"></script>
 </body>
 </html>
