@@ -1,9 +1,5 @@
 import RenderTodo from "./RenderTodo.js";
-
-
 const LocalStorage = () => {
-
-
     let todo = new Array();
     if(window.localStorage.getItem("todoTask")){
         console.log(JSON.parse(window.localStorage.getItem("todoTask")));
@@ -12,7 +8,4 @@ const LocalStorage = () => {
         window.localStorage.setItem("todoTask", JSON.stringify(todo));
     }
 }
-
-
-
 export default LocalStorage;

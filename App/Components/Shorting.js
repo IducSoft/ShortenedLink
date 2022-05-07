@@ -10,19 +10,13 @@ const Shorting=()=>{
 
         <form class="form-url-shorting bg-secondary p-1 br-sm mt-4">
 
-            <div class="row">
-                
+            <div class="row">    
                 <div class="col-12 col-md-10 p-1">
-                <input type="text" name="text" id="url-shorting" placeholder="Shorten a Link Here" style="width: 100%; height: 100%;" class="br-sm p-1">
+                    <input type="text" name="text" id="url-shorting" placeholder="Shorten a Link Here" style="width: 100%; height: 100%;" class="br-sm p-1">
                 </div>
-
                 <div class="col-12 col-md-2 p-1">
-                <input type="submit" value="Shorten it!" style="width: 100%; margin-top: 0.1rem;" class="btn-primary text-white br-sm" id="submit">
-                
-                
+                    <input type="submit" value="Shorten it!" style="width: 100%; margin-top: 0.1rem;" class="btn-primary text-white br-sm" id="submit">
                 </div>
-
-
             </div>
         
 
@@ -32,82 +26,16 @@ const Shorting=()=>{
 
         <div id="url-list-shorts" class="mt-4" style="margin-left: auto; margin-right: auto;">
 
-        
-        
-            <div class="row p-1 bg-white br-sm mb-2">
-            <div class="col-12 col-md-10" style="display:flex; justify-content: space-between; align-items: center;">
-                <div class="row">
-                <div class="col-12 col-md-10 p-1" style="display:flex; justify-content: start; align-items: center;">
-                    <p>https://www.youtube.com/watch?v=nhnoExvTwvk</p>
-                </div>
-                <div class="col-12 col-md-2 p-1" style="display:flex; justify-content: start; align-items: center;">
-                    <p class="text-primary">URL shortening</p>
-                </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-2 p-1">
-                <button class="btn btn-primary" style="width: 100%;">Copy</button>
-            </div>
-            </div>
-
-            <div class="row p-1 bg-white br-sm mb-2">
-            <div class="col-12 col-md-10" style="display:flex; justify-content: space-between; align-items: center;">
-                <div class="row">
-                <div class="col-12 col-md-10 p-1" style="display:flex; justify-content: start; align-items: center;">
-                    <p>https://www.youtube.com/watch?v=nhnoExvTwvk</p>
-                </div>
-                <div class="col-12 col-md-2 p-1" style="display:flex; justify-content: start; align-items: center;">
-                    <p class="text-primary">URL shortening</p>
-                </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-2 p-1">
-                <button class="btn btn-primary" style="width: 100%;">Copy</button>
-            </div>
-            </div>
-
-            <div class="row p-1 bg-white br-sm mb-2">
-            <div class="col-12 col-md-10" style="display:flex; justify-content: space-between; align-items: center;">
-                <div class="row">
-                <div class="col-12 col-md-10 p-1" style="display:flex; justify-content: start; align-items: center;">
-                    <p>https://www.youtube.com/watch?v=nhnoExvTwvk</p>
-                </div>
-                <div class="col-12 col-md-2 p-1" style="display:flex; justify-content: start; align-items: center;">
-                    <p class="text-primary">URL shortening</p>
-                </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-2 p-1">
-                <button class="btn btn-primary" style="width: 100%;">Copy</button>
-            </div>
-            </div>
-
-            <div class="row p-1 bg-white br-sm mb-2">
-            <div class="col-12 col-md-10" style="display:flex; justify-content: space-between; align-items: center;">
-                <div class="row">
-                <div class="col-12 col-md-10 p-1" style="display:flex; justify-content: start; align-items: center;">
-                    <p>https://www.youtube.com/watch?v=nhnoExvTwvk</p>
-                </div>
-                <div class="col-12 col-md-2 p-1" style="display:flex; justify-content: start; align-items: center;">
-                    <p class="text-primary">URL shortening</p>
-                </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-2 p-1">
-                <button class="btn btn-primary" style="width: 100%;">Copy</button>
-            </div>
-            </div>
-
         </div>
 
 
 
         <div style="text-align: center;" class="mt-4 mb-4">
-        <h2 class="step-2 mb-1">Advanced Statistics</h2>
-        <p class="step--0 mb-2">
-            Track how your links are performing across the web with our 
-            advanced statistics dashboard.
-        </p>
+            <h2 class="step-2 mb-1">Advanced Statistics</h2>
+            <p class="step--0 mb-2">
+                Track how your links are performing across the web with our 
+                advanced statistics dashboard.
+            </p>
         </div>
 
 
