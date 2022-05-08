@@ -16,8 +16,8 @@ const ItemTask=(object)=>{
             </div>
         </div>
         <div class="col-12 col-md-2 p-1">
-            <button class="btn btn-primary" style="width: 100%;" id="copy">Copy</button>
-            <button class="btn btn-error" style="width: 100%; margin-top: 1.5rem;" id="delete">Delete</button>
+            
+            <button class="btn btn-error" style="width: 100%;" id="delete">Delete</button>
         </div>
     `;
     return itemtask;
